@@ -1,38 +1,803 @@
-.App {
+.navbar {
+  background-color: transparent !important;
+  position: absolute !important;
+  z-index: 999;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 35px;
+  font-family: Dosis;
+  font-weight: 600;
+  transition: 0.5
+  
+  s ease;
+}
+.navbar i{
+  color: white;
+
+}
+section p,
+h5 {
+  font-family: "Dosis", sans-serif;
+}
+.slides-content {
+  font-family: "Dosis";
+  font-weight: 600;
+}
+.navbar .container{
+margin: 0px 82px;
+}
+.icon img{
+  width: 73px;
+  margin-right: 180px;
+}
+.slides-content p{
+  font-weight: 500;
+  font-size: 14px;
+}
+.top-header-area a {
+  margin-right: 12px;
+}
+.top-header-area {
+  font-size: 9px;
+  border-bottom: 1px solid rgba(235, 235, 235, 0.2);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 999;
+  margin: 0px 100px;
+  padding: 0px 20px;
+  padding-top: 10px;
+}
+.top-header-meta a {
+  padding-right: 25px;
+}
+.top-header-meta, .card-text i {
+  color: #70c745;
+  margin-right: 5px;
+}
+.top-header-meta span {
+  color: white;
+}
+.top-header-meta {
+  display: flex;
+}
+section h5 {
+  color: black !important;
+  line-height: 1.3;
+  font-weight: 500;
+}
+.about-us-area .row{
+  justify-content: space-evenly;
+}
+.single_progress_bar p{
+  margin-bottom: 0.5rem;
+}
+.services-area {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.services-area h2 {
+  font-size: 30px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 503;
+}
+.single-service-area {
+  margin-bottom: 20px;
+}
+#searchIcon i{
+  font-size: 16px;
+}
+.navbar a {
+  color: white;
+  padding: 30px;
+  margin: 0px 25px;
+}
+.slides-content {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.slides-content h2 {
+  font-size: 38px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slides-content {
+  position: absolute;
+  z-index: 999;
+  top: 40%;
+  color: white;
+}
+.welcome-btn-group{
+  margin-top: 40px;
+}
+.alazea-btn {
+  transition-duration: 400ms;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  min-width: 100px;
+  height: 38px;
+color: white;
+font-size: 12px !important;
+  background-color: #70c745 !important;
+  border: 2px solid #70c745;
+  border-radius: 2px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.Portfolio ul li:hover{
+  color: #70c745;
+  transition: 500ms;
+  cursor: pointer;
+}
+.alazea-btn.active,
+.alazea-btn:hover,
+.alazea-btn:focus {
+  font-size: 16px;
+  color: #70c745;
+  border: 2px solid #70c745;
+  font-weight: 600;
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.bg-img img {
+  position: relative;
+  background-color: rgba(17, 17, 17, 0.5);
+  z-index: -10;
+}
+.about-us-area p{
+  font-size: 13px;
+  color: #707070;
+}
+.section-heading p {
+  font-size: 12px;
+  color: #707070;
+  line-height: 1.7;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.price{
+  display: flex;
+justify-content: space-evenly;
+font-size: 13px;
+font-weight: 600;
+color: #000;
+}
+.category-list{
+  margin-bottom: 35px;
+}
+.cactus{
+display: flex;
+justify-content: space-evenly;
+font-size: 13px;
+margin-top: 12px;
+color: #707070;
+}
+ .navbar-fixed{
+  position: fixed !important;
+  z-index: 999;
+  background-color: #000 !important;
+  padding: 0px;
+  
+  box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2);
+}
+.services-area {
+  background-color: #f2f4f5;
+}
+.alazea-video-area {
+  border-radius: 6px;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.15);
+
+  position: relative;
+}
+.alazea-video-area a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 120px;
+  left: 0px;
+  right: 0px;
+  width: 70px;
+  height: 70px;
+  opacity: 0.9;
+  color: white;
+  margin: auto;
+  font-size: 25px;
+  background-color: #70c745;
+  border-radius: 50px;
+}
+section {
+  padding-top: 100px;
+}
+.alazea-video-area img {
+  height: auto;
+  max-width: 100%;
+  position: relative;
+
+  border-radius: 6px;
+}
+
+.alazea-progress-bar{
+margin-top: 40px;
+position: relative;
+}
+.single_progress_bar{
+  margin-bottom: 17px;
+  position: relative;
+ 
+}
+.alazea-benefits-area .single-benefits-area img{
+  margin-bottom: 29px;
+}
+.single_progress_bar p{
+  color: #303030;
+  font-weight: 600;
+}
+.barfiller{
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: 9px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 100%;
+  background-color: #ebebeb;
+}
+.tipWrap{
+  display: inline;
+}
+
+.barfiller .tip {
+  margin-top: -35px;
+  padding: 2px 4px;
+  font-size: 15px;
+  color: #303030;
+  left: 0;
+  left: 323px;
+  transition: left 1s ease-in-out 0s;
+  position: absolute;
+  z-index: 2;
+  background: transparent;
+  font-weight: 400;
+}
+.border-line{
+  width: 100%;
+  height: 1px;
+  background-color: #ebebeb;
+  margin-top: 50px;
+}
+
+
+.barfiller .fill {
+display: block;
+position: relative;
+height:93%;
+background: #70c745;
+z-index: 1;
+background: rgb(112, 199, 69);
+width: 356px;
+transition: width 1s ease-in-out 0s;
+}
+.single-benefits-area img{
+  width: 44px;
+}
+.single-benefits-area{
+  margin-bottom: 50px;
+}
+.single-benefits-area h5{
+  color: #303030;
+  font-size: 15px;
+  font-weight: 600;
+}
+.single-benefits-area p{
+  font-size: 13px;
+  color: #707070;
+}
+.section-heading h2{
+  font-family: 'Dosis';
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.section-heading p{
+  color: #707070;
+  
+}
+
+.Products{
+  background-color: #f2f4f5;
+}
+.Cards{
+  margin-top: 60px;
+}
+.Portfolio ,.Products, .Cards {
+  text-align: center;
+  font-family: Dosis;
+}
+.Portfolio,.Products, .Cards p{
+  margin-bottom: 40px;
+}
+.Portfolio ul{
+list-style: none;
+}
+.Products .react-photo-album {
+  margin: 0px 80px;
+}
+.Products .alazea-btn{
+  z-index: 1;
+  display: inline-block;
+  min-width: 120px;
+  height: 42px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #70c745;
+  border: 2px solid #70c745;
+  border-radius: 2px;
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 39px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 0px;
+}
+.Products .alazea-btn:hover{
+  color: #70c745;
+}
+.login{
+  cursor: pointer;
+}
+.Portfolio p{
+  font-size: 13px;
+}
+.Portfolio ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.Portfolio ul li{
+  padding: 0px 20px;
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+}
+.react-photo-album img{
+  transition: 0.9s ease;
+}
+.react-photo-album img:hover{
+  transform: translateY(-15px);
+  transition: 0.6s ease;
+
+}
+.Portfolio .Container{
+  margin: 0px 18px;
+}
+.service-content h5{
+  font-size: 14px;
+  font-weight: 600;
+}
+.service-content p {
+  font-size: 13px;
+}
+.service-icon img{
+  margin-right: 10px;
+  width: 40px;
+}
+.services-area .Container{
+  margin: 0px 150px;
+}
+/* .slide .bg-img{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.slide .bg-img img{
+  border-radius: 50%;
+} */
+.slide .text-container{
+  font-family: Dosis;
+  text-align: left;
+}
+.slide .text-container h2{
+  font-size: 20px;
+  color: #303030;
+  line-height: 1.3;
+  font-weight: 500;
+}
+.text-container p{
+  font-size: 12px;
+}
+.Container{
+  margin: 0px 100px;
+
+}
+.Products {
+  padding-bottom: 80px;
+}
+.card-group{
+  margin: 0px 80px;
+  gap: 26px;
+  font-family: Dosis;
+}
+.card-body{
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.card{
+  border: 0px;
+}
+.card-body h5{
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.card-body h5:hover{
+  color: #70c745;
+  transition-duration: 500ms;
+}
+.newsletter-right .alazea-btn:hover{
+  color: #70c745;
+}
+.card-text, .newsletter-left , .Form p {
+  font-size: 13px;
+  color: #707070;
+}
+.card-text a{
+  text-decoration: none;
+  font-size: 11px;
+  margin-right: 30px;
+  color: #707070;
+  
+}
+.newsletter-body{
+  background-size: cover;
+  background-position: top right;
+  margin-top: 50px;
+  font-family: Dosis;
+  padding: 40px ;
+align-items: center;
+position: relative;
+  background-repeat: no-repeat;
+background-image: url('https://themewagon.github.io/alazea/img/bg-img/subscribe.png');
+}
+.newsletter-body img{
+  position: absolute;
+  top: -25px;
+  width: 85px;
+  left: 48px;
+}
+.Form{
+  font-family: Dosis;
+  padding-bottom: 80px;
+}
+.newsletter-body h2{
+ color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Form h2{
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+.newsletter-body .Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter-left{
+  flex-basis: 50%;
+}
+
+.newsletter-right{
+  flex-basis: 50%;
+  display: flex;
+  height: 36px;
+}
+.newsletter-right input{
+  border: 0px;
+  width: 100%;
+  text-indent: 12px;
+  font-size: 12px;
+}
+.Form .form-control {
+  font-size: 13px;
+}
+.newsletter-right .alazea-btn{
+  line-height: 0px;
+  height: 36px;
+  color: white;
+  font-size: 13px;
+  width: 140px;
+  border-radius: 0px ;
+}
+.Form .alazea-btn{
+  line-height: 0px;
+  height: 36px;
+  color: white;
+  font-size: 13px;
+  width: 140px;
+  border-radius: 0px ;
+}
+Form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Form input{
+  border-radius: 0px;
+}
+.Form {
+  display: flex;
+}
+.Form .msg{
+  height: 70px;
+}
+.Form .first-row{
+  display: flex;
+  gap: 20px;
+}
+.Form .name-col{
+  flex-basis: 50%;
+}
+.Form .alazea-btn{
+  line-height: 0%;
+  color: white;
+  border-radius: 0px;
+  font-size: 12px;
+}
+.Form .alazea-btn:hover{
+  color: #70c745 !important;
+}
+.Form .map-area{
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.Form .map-area iframe{
+  width: 100%;
+  border-radius: 5px;
+  height: 380px;
+}
+.Footer{
+  background-image: url('https://themewagon.github.io/alazea/img/bg-img/3.jpg') !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.Footer  p , a{
+  color: #b7b7b7;
+  margin-bottom: 20px;
+
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.Footer .Container{
+  padding: 60px 20px;
+  padding-bottom: 0px;
+}
+.Footer .footer-logo{
+  margin-bottom: 30px;
+}
+.Footer ::after{
+  background-color: rgba(4, 43, 15, 0.8);
+    position: absolute;
+z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+
+}
+.social-info i{
+  color: white;
+}
+.social-info a{
+  display: inline-block;
+  border: 1px solid #b7b7b7;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 5px;
+  line-height: 38px;
+  font-size: 12px;
+}
+.Footer{
+  font-family: Dosis;
+}
+.footer-nav ul{
+  list-style: none;
+  padding: 18px 0px;
+  }
+  .footer-nav ul li a{
+    text-decoration: none;
+  }
+.widget-nav ul{
+list-style: none;
+padding: 18px 0px;
+}
+.widget-nav ul li a{
+  text-decoration: none;
+}
+.product-info a{
+  text-decoration: none;
+}
+.widget-nav{
+  display: flex;
+  gap: 61px;
+}
+.Footer h5{
+  color: white;
+}
+.single-best-seller-product{
+  margin-bottom: 20px;
+  gap : 18px;
+}
+.single-footer-widget .widget-title h5{
+  margin-bottom: 30px;
+}
+.product-info p{
+color: white;
+}
+.contact-information p{
+  color: white;
+  margin-bottom: 10px;
+}
+.contact-information span{
+  color: #b7b7b7;
+}
+.Footer .row{
+  border-bottom: 1px solid #303030;
+}
+.Footer .row-1{
+  display: flex;
+}
+.copywrite-text a {
+  text-decoration: none;
+  color: white;
+}
+.Footer .footer-nav ul{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.copywrite-text{
+  padding: 18px 0px;
+}
+.widget-nav ul li a:hover{
+  color: white;
+  transition-duration: 500ms;
+     -webkit-transition-duration: 500ms;
+
+}
+.alazea1-btn{
+  height: 30px;
+  width: 30px;
+  background-color: #70c745;
+  outline: 0 solid transparent;
+  border: 0px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+}
+.show{
+  display: block;
+  transition: 800ms;
+  opacity: 1;
+}
+.show.active{
+  transform: translateY(100px) scale(0) rotateY(180deg);
+opacity: 0;
+}
+
+.login-form{
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-box{
+  margin-top: 7vh;
+  opacity:80%;
+  background: black;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.login-text{
+  width: 100%;
+  color: white;
+  border-bottom: 2px solid white;
+  line-height: 30px;
+  width: 100%;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+label {
+  color:white;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-box{
+  border: 1px solid lightgrey;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  border-radius: 20px;
+  padding: 2px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 5px;
+  font-size: 11pt;
+  background: transparent;
+  transition: 1s;
+  outline: none;
+}
+
+.login-btn{
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48,172,251);
   color: white;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15pt;
+  font-weight: 700;
+  transition: 1s;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.login-btn:hover{
+  transform: scale(1.03);
+  letter-spacing: 4px;
+  background-color: #7FFFD4;
+  color: #1E90FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.show {
+  display: block;
+  transition: 800ms;
+  opacity: 1;
+}
+
+.show.active {
+  transform: translateY(100px) scale(0) rotateY(180deg);
+  opacity: 0;
 }
