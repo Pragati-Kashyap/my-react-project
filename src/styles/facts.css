@@ -1,0 +1,54 @@
+.facts-area{
+    background-image: url("https://themewagon.github.io/alazea/img/bg-img/cool-facts.png");
+    display: flex;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: top left;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+*{
+    font-family: Dosis;
+}
+.counter {
+    font-weight: 600;
+    color: #303030;
+}
+.cf-icon img{
+    width: 40px;
+    padding-bottom: 10px;
+}
+.cf-icon{
+    padding-right: 20px;
+}
+.facts-area .container{
+    margin: 0px 120px;
+}
+.counter span{
+    font-size: 28px;
+}
+.cf-content h6{
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.side-img{
+    position: absolute;
+    bottom: -70px;
+    right: 98px;
+}
+.side-img img{
+    width: 120px;
+}
+.Team{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.team-describe{
+    margin: 0px;
+    margin-bottom: 4px;
+}

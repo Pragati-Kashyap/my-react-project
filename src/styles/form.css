@@ -1,0 +1,27 @@
+ .alazea-btn .edit{
+    width: 50px !important;
+}
+
+.editable{
+    display: flex;
+    height: 25px;
+}
+.form-input-edit{
+    border: 0px;
+    font-size: 13px;
+}
+.input-form-card button{
+    margin: 0px;
+}
+button{
+    height: 25px !important;
+    border-radius: 0px !important;
+    line-height: 0px !important;
+}
+.login button{
+    margin: 0px;
+}
+.Footer button{
+    margin: auto;
+    width: 200px;
+}

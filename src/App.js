@@ -1,45 +1,33 @@
-import React from "react";
-import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
-import LoginForm from './Components/LoginForm';
-import Logout from './Components/Logout'
-import { selectUser } from "./features/userSlice";
-import { useSelector } from "react-redux/es/hooks/useSelector";
-import Navbar from "./Components/Navbar";
-import Header from "./Components/Header";
-import Services from "./Components/Services";
-import About from "./Components/About";
-import PortfolioNav from "./Components/Portfolio";
-import Products from "./Components/Products";
-import BasicExample from "./Components/Cards";
-import Newsletter from "./Components/Newsletter";
-import Forms from "./Components/Form";
-import Footer from "./Components/Footer";
-import ScrollButton from "./Components/ScrollButton";
+import { React, useState} from "react";
+import { Route, Routes } from "react-router-dom";
+import LoginForm from "./Components/Home/LoginForm";
+import HomePage from "./Pages/Home";
 import "./App.css";
+import "./styles/form.css"
+import AboutPage from "./Pages/About";
+import ShopPage from "./Pages/Shop";
+import ContactPage from "./Pages/Contact";
+import Portfolio from "./Pages/Portfolio";
+import Cart from "./Components/Portfolio/Cart";
 
 
 function App() {
  
+  const [cartItems, setCartItems] = useState([]);
+
   return (
     <div className="App">
-      <Navbar />
-   
-        <Routes>
-          <Route exact path = "/login" element = {<LoginForm/>} />
-        </Routes>
-   
-      <Header />
-      <Services />
-      <About />
-      <PortfolioNav />
-      <Products />
-      <BasicExample />
-      <Newsletter />
-      <Forms />
-      <Footer />
-      <ScrollButton />   
+      <Routes>
+        <Route path="/" element={<HomePage  />} />
+        <Route exact path="/login" element={<LoginForm />} />
+        <Route exact path="/home" element={<HomePage />} />
+        <Route exact path="/about" element={<AboutPage />} />
+        <Route exact path="/shop" element={<ShopPage />} />
+        <Route exact path="/contact" element={<ContactPage />} />
+        <Route exact path="/portfolio" element={<Portfolio />} />
+        <Route path="/cart" element={<Cart cartItems={cartItems} />} />
+      </Routes>
     </div>
   );
 }
-
 export default App;
